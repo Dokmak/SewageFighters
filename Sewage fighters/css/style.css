@@ -1,0 +1,73 @@
+body{
+	margin: 0px auto;
+	padding: 0px;
+	background-image: url('../images/back.jpg');
+	width : 100%;
+	height: 100%;
+}
+
+
+#fullbutton{
+	position : absolute;
+	z-index : 1;
+	width : 45px;
+	opacity: 0.2;
+}
+
+div#mainWrapper{
+	width: 100%;
+	margin : 0px auto;
+	text-align: center;
+}
+
+.wrapStyle{
+	display: inline-block;
+	border-style: inset;
+	border-color: #000000;
+	border-radius : 5px;
+	border-width : 10px;
+	height: 600px;
+	width: 800px;
+	margin: 0px auto;
+}
+
+.canvasWrap{
+	position : absolute;
+	width : 500px;
+	height : 150px;
+	z-index: 1;
+	margin-left:240px; 
+	margin-top:330px;
+}
+
+h3{
+	font-family : "Times new roman", cursive , sans-serif;
+	font-style: oblique;
+	color: #a2b0a3;
+	font-weight : 600;
+	font-size: 60px;
+	z-index : 1;
+}
+.imageBack1{
+	background: url('../images/backCanvas.jpg') repeat-x center left;
+	z-index:0; 
+	width:800px; 
+	height:600px; 
+	position:absolute; 
+	-webkit-animation: slidex 20s linear infinite;
+	-moz-animation: slidex 20s linear infinite; 
+	-ms-animation: slidex 20s linear infinite; 
+	-o-animation: slidex 20s linear infinite;
+}
+
+@-webkit-keyframes slidex
+{
+  FROM{background-position: -1920px center;}
+  TO{background-position:0 center;}
+}
+@-moz-keyframes slidex
+{
+  FROM{background-position: -1920px center;}
+  TO{background-position:0 center;}
+}
+
